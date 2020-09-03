@@ -1,0 +1,70 @@
+                       Java Program to add and subtract two matrices.
+
+
+1. Condition for addition and subtraction of two matrices.
+
+
+     Two matrices may be add and subtract only when they have same number
+         of dimensions i.e. , they have same number of rows and columns.
+
+
+
+	
+2. How to add and subtract two matrices.
+
+ 
+
+              		A + B = C    ,   A - B = D
+
+
+
+     	      [ a1 a2 a3 ]                   [ d1 d2 d3 ] 
+         A =  [ b1 b2 b3 ]              B =  [ e1 e2 e3 ] 
+   	      [ c1 c2 c3 ]		     [ f1 f2 f3 ] 
+
+
+
+   			[ a1+d1  a2+d2  a3+d3 ]
+   	     A + B =    [ b1+e1  b2+e2  b3+e3 ]    =  C
+       			[ c1+f1  c2+f2  c3+f3 ]
+
+
+
+
+
+
+   			[ a1-d1  a2-d2  a3-d3 ]
+   	     A - B =    [ b1-e1  b2-e2  b3-e3 ]   =  D
+       			[ c1-f1  c2-f2  c3-f3 ]
+
+
+
+
+	Example ; 
+
+
+        	   [ 2 7  11 ]                   [ 3  9 5 ] 
+              A =  [ 8 19 6  ]              B =  [ 1  3 0 ] 
+   	           [ 0 4  5  ]		         [ 12 2 7 ] 
+
+
+
+
+   	         	[  2+3    7+9    11+5 ]                  [5  16  16 ]
+             A + B =    [  8+1    19+3   6+0  ]      =   C  =    [9  22  6  ]
+       		        [  0+12   4+2    5+7  ]                  [12  6  12 ]
+
+
+ 
+
+   			[  2-3    7-9    11-5 ]                  [-1  -2  6  ]
+   	     A - B =    [  8-1    19-3   6-0  ]      =   D   =   [7   16  6  ] 
+       			[  0-12   4-2    5-7  ]                  [-12  2  -2 ]
+
+
+ 
+
+
+	
+
+
